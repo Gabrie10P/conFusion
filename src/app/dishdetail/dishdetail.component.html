@@ -20,7 +20,7 @@
         <h3>Comments</h3>
                 <mat-list class="lista">
                         <mat-list-item class="items" *ngFor="let com of dish.comments">
-                            <div>
+                            <div class="item">
                                 <span matListItemLine>{{com.comment}}</span>
                                 <span matListItemLine>{{com.rating}} stars</span>
                                 <span matListItemLine>-- {{com.author}} {{com.date}}</span>
